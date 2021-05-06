@@ -1392,16 +1392,16 @@
         },
         {
             "name": "vrana/adminer",
-            "version": "v4.4.0",
+            "version": "v4.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrana/adminer.git",
-                "reference": "187dd56b1c3e2cafe7f6f91c25f45bde7363f260"
+                "reference": "93c7fb248ca008e3247eb3a43812e1096e7b262c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vrana/adminer/zipball/187dd56b1c3e2cafe7f6f91c25f45bde7363f260",
-                "reference": "187dd56b1c3e2cafe7f6f91c25f45bde7363f260",
+                "url": "https://api.github.com/repos/vrana/adminer/zipball/93c7fb248ca008e3247eb3a43812e1096e7b262c",
+                "reference": "93c7fb248ca008e3247eb3a43812e1096e7b262c",
                 "shasum": ""
             },
             "type": "library",
@@ -1413,7 +1413,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0",
-                "GPL-2.0"
+                "GPL-2.0-only"
             ],
             "authors": [
                 {
@@ -1426,7 +1426,22 @@
             "keywords": [
                 "database"
             ],
-            "time": "2018-01-17T11:41:38+00:00"
+            "support": {
+                "forum": "https://sourceforge.net/p/adminer/discussion/",
+                "issues": "https://sourceforge.net/p/adminer/bugs-and-features/",
+                "source": "https://github.com/vrana/adminer/"
+            },
+            "funding": [
+                {
+                    "url": "https://sourceforge.net/p/adminer/donate/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/jakubvrana",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-02-07T17:25:18+00:00"
         }
     ],
     "packages-dev": [
@@ -2997,5 +3012,6 @@
         "php": "^7.0",
         "ext-simplexml": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
